@@ -34,24 +34,17 @@ example json data
     Switch to the new directory:
     cd /path/to/test-directory
 
-In the test directory, install your module:
+In the test directory pull this repo and install required dependencies:
 
-    npm install least-online-priority-server
+    npm install to install module dependencies.
+    jest,axios
+    
+Open your project in your IDE and run file index.js to see the results.    
 
-    In the test directory, create a test.js file which requires your module and calls your module as a method, you can use the below code:
+    In the project dir replace the content of data.json with your data in same format to test.
+    
 
-    // import created package
-    const findServer = require('least-online-priority-server');
-    // this is our example json data
-    const sampleData = require('./data');
- 
-    // use the package to fetch lowest priority server from the json data list
-    const response = findServer(data);
- 
-    // response
-    response.then((res) => console.log(res));
-
-   On your command line run 'npm test' to run test cases for unit testing of the package.
+On your command line run 'npm test' to run test cases for unit testing of the package.
    
 
 
