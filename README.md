@@ -2,8 +2,7 @@ A node package that determines the availability of a given list of servers and r
 
 Alt text
 
-
-# Test the package
+#Steps to follow
 
     On the command line, create a new test directory by the following command
     mkdir test-directory
@@ -12,13 +11,13 @@ Alt text
 
 In the test directory, pull this project:
 
-    Install project dependencies: axios,jest
+    Install project dependencies: axios,jest.
     Open your terminal and run 'npm install'.
    
 To run this project
 
     Open this project in your IDE and run index.js.
-    and see the results in the output screen.
+    See the results in the IDE output screen.
 
 To run test cases
 
