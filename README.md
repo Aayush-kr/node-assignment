@@ -11,8 +11,9 @@ Alt text
 
 In the test directory, pull this project:
 
-    Install project dependencies: axios,jest.
-    Open your terminal and run 'npm install'.
+    Install project dependencies:
+    Open your terminal and switch project folder.
+    Run 'npm install' to install required dependencies.
    
 To run this project
 
