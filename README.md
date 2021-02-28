@@ -22,4 +22,4 @@ To run this project
 
 To run test cases
 
-    In the terminal run 'npm test' and the test result in terminal.
+    In the terminal run 'npm test' and see the test results in terminal.
