@@ -1,7 +1,3 @@
-# node-assignment
-
-# Fetch online least priority server
-
 A node package that determines the availability of a given list of servers and returns an online server having the least priority.
 
 Alt text
@@ -34,23 +30,25 @@ example json data
     Switch to the new directory:
     cd /path/to/test-directory
 
-In the test directory pull this repo and install required dependencies:
+In the test directory, install your module:
 
-    npm install to install module dependencies.
-    jest,axios
-    
-Open your project in your IDE and run file index.js to see the results.    
+    npm install least-online-priority-server
 
-    In the project dir replace the content of data.json with your data in same format to test.
-    
+    In the test directory, create a test.js file which requires your module and calls your module as a method, you can use the below code:
 
-On your command line run 'npm test' to run test cases for unit testing of the package.
+    // import created package
+    const findServer = require('least-online-priority-server');
+    // this is our example json data
+    const sampleData = require('./data');
+ 
+    // use the package to fetch lowest priority server from the json data list
+    const response = findServer(data);
+ 
+    // response
+    response.then((res) => console.log(res));
+
+   To test the package, on your command line run 'npm test' to run test cases for unit testing.
    
-
-
-
-
-
 
 
 

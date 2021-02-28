@@ -1,0 +1,16 @@
+{
+  "name": "fetch-least-priority-server",
+  "version": "1.0.1",
+  "description": "get least online priority server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "aayush",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jest": "^26.6.3"
+  }
+}
